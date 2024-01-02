@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="imagens/telefone-fixo.png" alt="Telefone Fixo">
+            <h1 class="titulo">AGENDA DE CONTATOS</h1>
+        </header>
+        <form action="" id="form-contatos">
+            <input type="text" placeholder="Nome" required id="nomeContato">
+            <input type="number" placeholder="Telefone: (xx)xxxx-xxxx" required id="numeroContato">
+            <input type="submit" value="Adicionar" id="adicionar" id="botaoAdd">
+        </form>
+        <table >
+            <thead>
+                <tr>
+                    <th>
+                        Nome
+                    </th>
+                    <th>
+                        Número
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="tbody-contatos">
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Total De Contatos</th>
+                    <td id="NumeroTotalContatos">1</td>
+                </tr>
+            </tfoot>
+        </table>
+        <footer>
+        
+        </footer>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
